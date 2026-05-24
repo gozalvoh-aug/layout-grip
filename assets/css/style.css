@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(../img/agua.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+}
+
+img {
+  width: 250px;
+  min-height: 300px;
+  min-width: 300px;
+  object-fit: cover;
+}
+
+.Layout {
+  min-height: 100vh;
+  min-width: 100%;
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "category article"
+    "footer footer"
+    ;
+}
+
+.header {
+   background-image: url(../img/peces.jpeg);
+  background-image: no-repeat;
+  background-size: cover;
+  background-image: ;
+  padding: 24px 36px;
+  grid-area: header;
+  font-size: 30px;
+}
+
+.tex-miecom {
+  color: white;
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  box-sizing: border-box;
+}
+
+.category {
+    background-color: rgb(61, 154, 241);
+    flex-direction: column;
+    grid-area: category;
+    display: flex;
+    gap: 10px;
+    padding: 30px;
+    align-items: center;
+    width: 260px;
+}
+
+.tex-catego {
+    color: blue;
+    display: flex;
+    padding: 5px;
+}
+
+.article{
+    display: flex;
+    grid-template-columns:;
+    align-items: center;
+    padding-left: 25px;
+    padding-top: 10px;
+    min-width: 100vb;
+    flex-wrap: wrap;
+    justify-content: flex-start; 
+    gap: 10px; 
+}
+
+.card-prod {
+    align-items: center;
+    border: 2px solid blue;
+    margin: 10px;
+    text-align: center;
+    padding: 5px;
+}
+
+.tex-card{
+    padding: 10px;
+    margin: 10px;
+    gap: 10px;
+}
+
+.tex-valor{
+    padding: 10px;
+    margin: 10px;
+    gap: 10px;
+}
+
+.card-prod a {
+    text-align: center;
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    align-items: center;
+    text-decoration: none;
+    font-size: boid;
+    background-color: red;
+    display: block;
+}
+
+.prod-num{
+    padding: 10px; 
+    gap: 10px;
+}
+
+.bot-comp{
+    align-items: center;
+}
+
+.footer {
+    color: blue;
+    text-align: center;
+    background-color: rgb(168, 236, 236);
+    border: 3px solid rgb(59, 29, 228);
+}
+
+.tex-foot {
+    padding: 10px;
+}

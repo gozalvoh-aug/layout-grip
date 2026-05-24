@@ -1,38 +1,86 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Layout Grid</title>
-    <link rel="stylesheet" href="./assests/style.css" />
-  </head>
-
-  <body>
-    <header>
- 
-        <div class="tex-micome">
-            <h2>Mi Ecomercio</h2>
-        </div>
-      
-    </header>
-    
-   
-    <menu >
-        <div class="menu-lat">
-            <div class="tex-categ">
-                <h3>Categoría</h3>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="Layout">
+        <header class="header">
+            <div class="tex-miecom">
+                <h1>Mi Ecomercio</h1>
             </div>
-
-            <div class="bar-produc">
-                <p>Perfume (13)</p>
-                <p>Ropa (21)</p>
-                <p>Accesorios (41)</p>
-                <p>Zapatos (10)</p>
+        </header>
+    <div class="main">
+        <section class="category">
+            <div class="tex-catego">
+                <h2>Categorías</h2>
+            </div>
+            <div class="prod-num">
+                <p>Paddles (9)</p>                  
+                <p>Dingy (6)</p>
+                <p>Tablas (41)</p>
+                <p>Trajes neopreno (40)</p>
+            </div>
+        </section>
+    <article class="article">
+            <div class="card-prod">
+                <img src="assets/img/paddle.jpg" alt="paddle">
+                <div class="tex-card">
+                <h3>Stand Up Paddle 9"6</h3>
+                </div>
+                <div class="tex-valor">
+                <p>159.990</p>
+                </div>
+                <div class="bot-comp">
+                <a href="*">Comprar</a>
+                </div>
+            </div>
+            <div class="card-prod">
+                <img src="assets/img/Dingy.png" alt="dingy">
+                <div class="tex-card">
+                <h3>Dingy motor fuera de borda 10 hp</h3>
+                </div>
+                <div class="tex-valor">
+                <p>326.990</p>
+                </div>
+                <div class="bot-comp">
+                <a href="*">Comprar</a>
             </div>
         </div>
-            
-    </menu>
-    <main></main>
-    <footer></footer>
-  </body>
+        <div class="card-prod">
+                <img src="assets/img/tabla.jpg" alt="tabla">
+                <div class="tex-card">
+                <h3>Tabla de surf Waikiki de cedro 75"5</h3>
+                </div>
+                <div class="tex-valor">
+                <p>209.990</p>
+                </div>
+                <div class="bot-comp">
+                <a href="*">Comprar</a>
+            </div>
+        </div>
+          <div class="card-prod">
+                <img src="assets/img/traje-neopreno.jpg" alt="traje">
+                <div class="tex-card">
+                <h3>Traje neopreno</h3>
+                </div>
+                <div class="tex-valor">
+                <p>28.990</p>
+                </div>
+                <div class="bot-comp">
+                <a href="*">Comprar</a>
+            </div>
+        </div>
+        </div>
+    </article>
+    </div>
+    <footer class="footer">
+        <div class="tex-foot">
+        <h2>@micomercio</h2>
+        </div>
+    </footer>
+</body>
 </html>
