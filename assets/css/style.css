@@ -47,6 +47,8 @@ img {
 .main {
   display: flex;
   box-sizing: border-box;
+  grid-area: category;
+  height: 100%;
 }
 
 .category {
